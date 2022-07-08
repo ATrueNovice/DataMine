@@ -1,5 +1,5 @@
   ('========================================', 'Boot Time', '========================================')
-Boot Time: 2022/6/3 12:6:24
+Boot Time: 2022/6/24 16:39:28
 
  ('========================================', 'System Information', '========================================')
 System: Darwin
@@ -18,89 +18,75 @@ Current Frequency: 2900.00Mhz
 Current Frequency: 2900.00Mhz
 CPU Usage Per Core: 
 Current Frequency: 2900.00Mhz
-Core 0: 20.0% 
-Core 1: 0.0% 
-Core 2: 15.8% 
-Core 3: 1.0% 
-Core 4: 11.9% 
-Core 5: 0.0% 
-Core 6: 10.1% 
-Core 7: 0.0% 
-Total CPU Usage: 7.3% 
+Core 0: 35.6% 
+Core 1: 2.0% 
+Core 2: 29.3% 
+Core 3: 3.0% 
+Core 4: 27.0% 
+Core 5: 2.0% 
+Core 6: 23.0% 
+Core 7: 2.0% 
+Total CPU Usage: 15.7% 
  ('========================================', 'Memory Information', '========================================')
 Total: 16.00GB
-Available: 6.00GB
-"Used: 8.58GB
-Percentage: 62.5%
+Available: 7.21GB
+"Used: 8.04GB
+Percentage: 54.9%
  
  ('====================', 'SWAP', '====================')
-Total: 2.00GB
-Free: 1.33GB
-Used: 690.75MB
-Percentage: 33.7%
+Total: 0.00B
+Free: 0.00B
+Used: 0.00B
+Percentage: 0.0%
  
  Percentage: ('========================================', 'Disk Information', '========================================')%
 Partitions and Usage:
 === Device: /dev/disk1s5 ===
   Mountpoint: /
   File system type: apfs
-=== Partition Usage: sdiskusage(total=499963170816, used=11214745600, free=441849208832, percent=2.5) ===
+=== Partition Usage: sdiskusage(total=499963170816, used=11214389248, free=439572058112, percent=2.5) ===
   Total Size: 465.63GB
   Used: 10.44GB
-  Free: 411.50GB
+  Free: 409.38GB
   Percentage: 2.5%
 === Device: /dev/disk1s1 ===
   Mountpoint: /System/Volumes/Data
   File system type: apfs
-=== Partition Usage: sdiskusage(total=499963170816, used=42904244224, free=441849208832, percent=8.9) ===
+=== Partition Usage: sdiskusage(total=499963170816, used=47328083968, free=439572058112, percent=9.7) ===
   Total Size: 465.63GB
-  Used: 39.96GB
-  Free: 411.50GB
-  Percentage: 8.9%
+  Used: 44.08GB
+  Free: 409.38GB
+  Percentage: 9.7%
 === Device: /dev/disk1s4 ===
   Mountpoint: /private/var/vm
   File system type: apfs
-=== Partition Usage: sdiskusage(total=499963170816, used=3222294528, free=441849208832, percent=0.7) ===
+=== Partition Usage: sdiskusage(total=499963170816, used=1074810880, free=439572058112, percent=0.2) ===
   Total Size: 465.63GB
-  Used: 3.00GB
-  Free: 411.50GB
-  Percentage: 0.7%
-=== Device: /Users/shaughton-scott/Downloads/Visual Studio Code.app ===
-  Mountpoint: /private/var/folders/h3/ds5gk7110bs5nb38p20x18x80dq4ny/T/AppTranslocation/4C7B786C-6D12-4D16-9441-234C568F07AD
-  File system type: nullfs
-=== Partition Usage: sdiskusage(total=499963170816, used=42655326208, free=442098126848, percent=8.8) ===
-  Total Size: 465.63GB
-  Used: 39.73GB
-  Free: 411.74GB
-  Percentage: 8.8%
-Total read: 66.95GB
-Total write: 52.03GB
+  Used: 1.00GB
+  Free: 409.38GB
+  Percentage: 0.2%
+Total read: 93.40GB
+Total write: 84.65GB
 === Device: /dev/disk1s5 ===
   Mountpoint: /
   File system type: apfs
   Total Size: 465.63GB
-  Used: 10.44GB  Free: 411.50GB
+  Used: 10.44GB  Free: 409.38GB
   Percentage: 2.5%
 === Device: /dev/disk1s1 ===
   Mountpoint: /System/Volumes/Data
   File system type: apfs
   Total Size: 465.63GB
-  Used: 39.96GB  Free: 411.50GB
-  Percentage: 8.9%
+  Used: 44.08GB  Free: 409.38GB
+  Percentage: 9.7%
 === Device: /dev/disk1s4 ===
   Mountpoint: /private/var/vm
   File system type: apfs
   Total Size: 465.63GB
-  Used: 3.00GB  Free: 411.50GB
-  Percentage: 0.7%
-=== Device: /Users/shaughton-scott/Downloads/Visual Studio Code.app ===
-  Mountpoint: /private/var/folders/h3/ds5gk7110bs5nb38p20x18x80dq4ny/T/AppTranslocation/4C7B786C-6D12-4D16-9441-234C568F07AD
-  File system type: nullfs
-  Total Size: 465.63GB
-  Used: 39.73GB  Free: 411.74GB
-  Percentage: 8.8%
-Total read: 66.95GB
-Total write: 52.03GB
+  Used: 1.00GB  Free: 409.38GB
+  Percentage: 0.2%
+Total read: 93.40GB
+Total write: 84.65GB
  
  Network: ('========================================', 'Network Information', '========================================') 
 === Interface: lo0 ===
@@ -112,7 +98,7 @@ Total write: 52.03GB
 === Interface: lo0 ===
 === Interface: en0 ===
 === Interface: en0 ===
-  IP Address: 10.3.21.174
+  IP Address: 10.3.20.162
   Netmask: 255.255.248.0
   Broadcast IP: 10.3.23.255
 === Interface: en0 ===
@@ -132,8 +118,8 @@ Total write: 52.03GB
 === Interface: utun0 ===
 === Interface: utun1 ===
  
- Total Bytes Sent: 256.84MB
-Total Bytes Received: 6.09GB
+ Total Bytes Sent: 212.08MB
+Total Bytes Received: 644.99MB
   ('========================================', 'End Information', '========================================') 
 
 

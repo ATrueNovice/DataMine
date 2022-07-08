@@ -294,7 +294,7 @@ def System_information():
     xboots_data = f" {''.join(final_results)}\n"
     # print(xboots_data)
     # output(xboots_data)
-    with open('amc_test.txt', 'w') as f:
+    with open(f'AMC_{node}.txt', 'w') as f:
         
         f.write(xboots_data)
         f.write('\n')
