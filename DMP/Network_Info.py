@@ -29,16 +29,20 @@ def System_information():
     header ="="*40, "System Information", "="*40
     system = uname.system
     node =uname.node
+    users = psutil.users()
+    current_profile = psutil.use()
     release = uname.release
     version = uname.version
     machine = uname.machine
     processor=uname.processor
+    
     mac_address = f"{':'.join(re.findall('..', '%012x' % uuid.getnode()))}"
     # print(header)
     
     x.append(f"{header}\n")
     x.append(f"System: {system}\n")
     x.append(f"Node Name:  {node}\n")
+    x.append(f"Users:  {users}\n")
     x.append(f"Release: {release}\n")
     x.append(f"Version: {version}\n")
     x.append(f"Machine: {machine}\n")
